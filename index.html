@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <title>MyYoutube Preview</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="container">
+            <div id="header">
+                <nav>
+                    <div class="logo-text">
+                        <img id="logo" src="youtubelogo.png" alt="logo image">
+                        <p id="te">YOUTUBE</p>
+                    </div>
+                    <div class="search-bar">
+                        <span class="search-icon"><ion-icon name="search-outline"></ion-icon></span>
+                        <form action="#">
+                            <input type="text" placeholder=" Search" name="search">  
+                        </form>
+                    </div>
+                    <ul>
+                    <a href="#main-video"><li>Video</li></a>
+                    <a href="#side-bar"><li>Previews</li></a></ul>
+                </nav>
+            </div>
+            <div id="container-main">
+                <div id="main-video">
+                    <iframe width="960" height="595" src="https://www.youtube.com/embed/mfvHd1OsRLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p style="font-family: sans-serif; padding: 10px; font-size: 26px; font-weight: bold">Video Title: The Childe Teaser(2023)</p>
+                    <p style="font-size: 22px; color: gray; padding: 10px">22,30,294 views</p>
+                    <details>
+                        <summary><p style="border-bottom: 1px solid black; font-size: 22px; padding: 10px; font-weight: 500">Description (click here to see description)</p></summary>
+                        <p style="font-family: sans-serif; padding: 10px; font-size: 16px; line-height: 20px">The story of a mad pursuit by forces with different goals, including a mysterious man named 'Scion', in front of 'Marco', a boxer who travels around illegal stadiums in the Philippines.
+                            <br>
+                            NEW is a movie, music, drama, theater business, etc.<br>
+                            Subscribe to the YouTube channel of the NEW Film Division<br>
+                            Be the first to see NEW movie trailers, unreleased exclusive footage and more.
+                        </p>
+                    </details>
+                </div>
+                <div id="side-bar">
+                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/4dpIXCj7zo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>Video One
+                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/P_qkV8RVVsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>Video Two
+                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/XNAZF8E2vLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>Video Three
+                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/257ORmTCyGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>Video Four
+                </div>
+            </div>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
